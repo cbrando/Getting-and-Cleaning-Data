@@ -43,6 +43,8 @@ The R script
 -------------
 
 The R script “run_analysis.R” performs the following actions on the above mentioned files:
+
+
 1. Merges the training and the test sets to create one data set. In order to perform this operation all the required files must be saved at the working directory of the R project where the script is used.
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
