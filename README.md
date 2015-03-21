@@ -11,13 +11,21 @@ Original files
 All the data used in my work is contained in the following files:
 
 X_train.txt
+
 y_train.txt
+
 X_test.txt
+
 y_test.txt
+
 subject_train.txt
+
 subject_test.txt
+
 activity_labels.txt
+
 features.txt
+
 
 These files are part of a data set available at:
 
@@ -36,10 +44,16 @@ The R script
 
 The R script “run_analysis.R” performs the following actions on the above mentioned files:
 1. Merges the training and the test sets to create one data set. In order to perform this operation all the required files must be saved at the working directory of the R project where the script is used.
+
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
 3.  Uses descriptive activity names to name the activities in the data set. The six names in the “activity_labels.txt” file were used.
-4. Appropriately labels the data set with descriptive variable names. The original names in the “features.txt” file were used as variable names after converting them to lower case and eliminating punctuation and special characters. 
+
+4. Appropriately labels the data set with descriptive variable names. The original names in the “features.txt” file were used as variable names after converting them to lower case and eliminating punctuation and special characters.
+ 
 5. From the data set in step 4, creates a second, independent tidy data (tidydata2) set with the average of each variable for each activity and each subject.
+
+
 The script save the final data set “tidydata2”to a text file named “tidydata2.txt”.
 
 
