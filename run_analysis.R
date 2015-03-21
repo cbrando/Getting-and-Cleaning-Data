@@ -9,7 +9,7 @@ library("reshape2")
 # 1. X_train.txt
 # 2. y_train.txt
 # 3. X_test.txt
-# 4. y_train.txt
+# 4. y_test.txt
 # 5. subject_train.txt
 # 6. subject_test.txt
 # 7. activity_labels.txt
